@@ -12,6 +12,11 @@ click vm ware download and download it
 install vm ware
 
 
-### what s cyber security
+### what is cyber security
 pratice to safe and protect your computer system from digital theft and or digital attacks
-### CIA Triads
+### CIA Triads:
+1.Confidentiality 
+2.Integrity 
+3.Availibility
+## Access Control:
+Mandatory Access Control (MAC), Role-Based Access Control (RBAC), Discretionary Access Control (DAC), and Rule-Based Access Control (RBAC or RB-RBAC)
