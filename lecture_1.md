@@ -34,3 +34,20 @@ malicious software
 ### 8. RootKits: takes root access.....
 
 
+# sir sami
+There are two types of softwares 
+propritery
+open source 
+kali linux is open source which is promoted by Apache
+Forking (ver0sion or distribution)
+linux based verison knowm as kali linux
+## Linux vs Other Operating systems
+linux has less user interface than other os. we change only configuratu=ion by writing it in terminal.most of the usedd os is linux as it is used in linux or settlites facebook or youtube or anyy other banking system uses Linux. 
+PECA(when you scan or nmap any government website it will take action against u)pakistan electronic crime act.
+USED in:
+1. Banking
+2. telecom
+3. PTA 
+4. Ecommerce
+5. Fbr(NCCIA)
+OT based system operational technology cia triads will be reversed
