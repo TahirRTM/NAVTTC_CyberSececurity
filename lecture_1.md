@@ -51,3 +51,7 @@ USED in:
 4. Ecommerce
 5. Fbr(NCCIA)
 OT based system operational technology cia triads will be reversed
+
+## NAT
+## Bridge
+## Host
