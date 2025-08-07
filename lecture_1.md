@@ -24,6 +24,36 @@ Mandatory Access Control (MAC), Role-Based Access Control (RBAC), Discretionary 
 # TYpe of Attacks:
 ## Malware.....
 malicious software
+ Virus
+Attach karta hai khud ko kisi legitimate file ke sath.
+Jab wo file chalay jaati hai to virus activate ho jata hai.
+Apne aap ko spread karta hai aur system resources (RAM) consume karta hai.
+2. Worms
+Ye ek standalone program hota hai.
+Kisi file ke sath attach nahi hota — khud ka software hota hai.
+Network ke zariye khud ko automatically spread karta hai (e.g., email contacts).
+3. Trojan Horses
+Legitimate software ban kar aata hai, par andar malicious code hota hai.
+User ko lagta hai ye useful program hai, lekin ye backdoor open karta hai attacker ke liye.
+4. Spyware
+Chupke se system me install ho jata hai.
+User ki activity monitor karta hai (jaise browsing, passwords waghera).
+Mostly bina user ke pata chale data send karta hai attacker ko.
+5. Adware
+User ko bht zyada ads dikhata hai (pop-ups, banners).
+Kabhi kabhi spyware ke sath bhi aata hai.
+Zyada tar user experience kharab karta hai aur data bhi collect karta hai.
+6. DDoS/Botnet
+Botnet: Infected computers ka network hota hai jise attacker control karta hai.
+DDoS (Distributed Denial of Service): Bohat sare infected systems se aik server/website pe attack kiya jata hai — taake wo down ho jaye.
+7. Keyloggers
+User ke keyboard strokes record karta hai.
+Passwords, chats, banking info sab secretly capture kar leta hai.
+Mostly spyware ke zariye install hota hai.
+8. Rootkits
+System ke root (admin level) tak access le leta hai.
+Apni presence chhupa leta hai, taa ke detect na ho.
+Attackers ko full control deta hai without being noticed.
 ### 1. virus:Attach themself to a legitmate files spread itself and make RAM more consumed
 ### 2. worms: itself a standalone program
 ### 3. Trojan horses:.... 
