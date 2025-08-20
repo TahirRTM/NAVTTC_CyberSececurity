@@ -259,6 +259,11 @@ analysis and reporting
 
 ## risk Management
 
+# week 3
+## nikto
+nikto -h (domain name)
+
+
 
 
 
@@ -297,6 +302,14 @@ OT based system operational technology cia triads will be reversed
 ## letral moment: if one end point is exploit then whole network can be exploited:
 ## SMB
 ## NTP
+## tell the risk---->> by vulnerablity and likelihood or probablity
+### IDOR---> has fraud of biilions of dollars
+## heart bleed bug 
+## equifax
+## CVE's
+## STRIDE FRAMEWORK
+## SAACA 
+## CISA
 
 
 
