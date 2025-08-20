@@ -285,6 +285,18 @@ OT based system operational technology cia triads will be reversed
 ## Bridge
 ## Host
 ## OSSTMM
+# week 3:
+## footprinting
+## enumuration detail of ip and its services
+### exploit.tb(website)
+### exploitation in pentesting domain
+### Network operation center:NOC
+###  SNMPis used to monitor availibility in CIA 
+### NMS
+## NetBIOS LAN DNS services
+## letral moment: if one end point is exploit then whole network can be exploited:
+## SMB
+## NTP
 
 
 
