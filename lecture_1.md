@@ -262,6 +262,143 @@ analysis and reporting
 # week 3
 ## nikto
 nikto -h (domain name)
+auinetix
+
+# Week 3 day 6
+### TCP vs OSI
+TCP/IP vs OSI Model
+📑 1. Number of Layers
+
+OSI Model → 7 layers
+
+TCP/IP Model → 4 layers
+
+📑 2. Layer Structure
+OSI Model (7 Layers)	TCP/IP Model (4 Layers)
+Application	Application
+Presentation	Application
+Session	Application
+Transport	Transport
+Network	Internet
+Data Link	Network Access
+Physical	Network Access
+📑 3. Purpose
+
+OSI Model → A theoretical reference model, mainly used for learning & understanding networking.
+
+TCP/IP Model → A practical implementation, used for real-world networking (Internet).
+
+📑 4. Development
+
+OSI → Developed by ISO (1984).
+
+TCP/IP → Developed by DARPA (1970s) for ARPANET (precursor to the Internet).
+
+📑 5. Protocol Dependency
+
+OSI → Protocol-independent (general model).
+
+TCP/IP → Protocol-specific (designed around TCP & IP).
+
+📑 6. Usage in Cybersecurity
+
+OSI → Helps in mapping attacks & defenses layer by layer (useful for analysis).
+
+TCP/IP → Used in real attacks and defenses (firewalls, VPNs, IDS/IPS work on TCP/IP).
+## OSI model
+ ### Physical Layer (Layer 1)
+
+Attacks target the hardware & signals.
+
+🔴 Examples:
+
+Cable cutting / physical damage
+
+Signal jamming (wireless networks)
+
+Hardware keylogger insertion
+
+TEMPEST attack (electromagnetic eavesdropping)
+
+### 2. Data Link Layer (Layer 2)
+
+Focuses on MAC addresses & switching.
+
+🔴 Examples:
+
+MAC Flooding → overload switch to act like a hub.
+
+ARP Spoofing/Poisoning → attacker tricks network into sending packets to them.
+
+VLAN Hopping → gain access to restricted VLANs.
+
+### 3. Network Layer (Layer 3)
+
+Responsible for IP addressing & routing.
+
+🔴 Examples:
+
+IP Spoofing → fake IP to impersonate another device.
+
+Route Hijacking / BGP attack → manipulate routing tables.
+
+Ping of Death / ICMP Flood → crash systems with malformed packets.
+
+DoS/DDoS → overwhelming traffic at the IP level.
+
+### 4. Transport Layer (Layer 4)
+
+Deals with TCP/UDP communication.
+
+🔴 Examples:
+
+SYN Flood Attack → send many half-open TCP requests to exhaust server.
+
+Port Scanning (Nmap) → find open ports for exploitation.
+
+UDP Flood → overload target with UDP packets.
+
+Session Hijacking → taking over active TCP connections.
+
+### 5. Session Layer (Layer 5)
+
+Manages sessions & authentication.
+
+🔴 Examples:
+
+Session Hijacking → steal session tokens/cookies.
+
+Man-in-the-Middle (MITM) → intercept communication between two hosts.
+
+Replay Attack → reuse a valid session token to gain unauthorized access.
+
+### 6. Presentation Layer (Layer 6)
+
+Handles data translation, encryption, compression.
+
+### 🔴 Examples:
+
+SSL Stripping → downgrade HTTPS to HTTP.
+
+Certificate Forgery → fake certificates to trick users.
+
+Data Encoding Attacks (Unicode manipulation to bypass filters).
+
+### 7. Application Layer (Layer 7)
+
+Closest to user; deals with apps, browsers, protocols.
+
+🔴 Examples:
+
+SQL Injection → attacker injects malicious queries.
+
+Cross-Site Scripting (XSS) → injects malicious code into websites.
+
+Cross-Site Request Forgery (CSRF) → trick users into performing unwanted actions.
+
+Phishing → fake websites/emails to steal credentials.
+
+Malware Injection / Ransomware → delivered via apps.
 
 
 
