@@ -400,6 +400,10 @@ Phishing → fake websites/emails to steal credentials.
 
 Malware Injection / Ransomware → delivered via apps.
 
+# password guessing
+hydra -L /home/kali/usr -P /home/kali/pswrd -v ftp://192.168.85.129
+usr and pswrd are text files and have the correct name and password in that list like msfadmoin.
+
 
 
 
